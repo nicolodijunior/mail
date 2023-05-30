@@ -1,0 +1,254 @@
+
+
+/* GENERAL */
+
+html {
+	font-size:62.5%;
+}
+
+* {
+	/* border-top: 10px solid #1098ad; */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+body {
+	font-family: "Rubik", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+.emails {
+	border:1px solid black;
+	padding: 20px;
+	margin: 10px;
+}
+
+.container {
+	max-width: 120rem;
+	padding: 1.2rems 0;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.grid{
+	display:grid;
+	justify-items: center;
+}
+
+/* LOGIN */
+
+.login{
+	margin-top: 20rem;
+	width:35rem;
+	text-align: center;
+	margin-bottom: auto;
+	border-radius: 5%;
+	border-color: #73abd6;
+	border-style:solid ;
+	border-width:0.75px;
+	padding: 0.4rem 4rem;
+}
+
+.login p {
+	color: #868e96;
+}
+
+.login label {
+	display: inline-block;
+	padding: 0.3rem;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.2rem;
+	color:#555;	
+	font-weight: 600;
+}
+
+.login .input-login{
+	display: inline-block;
+	padding: 0.4rem;
+	width: 70%;
+}
+
+.login .form-information {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+
+.form-control {
+	font-size: 1.5rem;
+}
+
+.panel{
+	margin-top: 5rem;
+	padding: 3rem;
+	width:90%;
+	border-radius: 2%;
+	border-style:outset;
+	margin-bottom: 5rem;	
+	border-width:0.75px;	
+	border-color: #73abd6;
+}
+
+.inbox-text{
+	margin-bottom: 0.2rem;
+}
+
+.login{
+	margin-top: 20rem;
+	width:35rem;
+	text-align: center;
+	margin-bottom: auto;
+	border-radius: 5%;
+	border-color: #73abd6;
+	border-style:solid ;
+	border-width:0.75px;
+	padding: 0.4rem 4rem;
+}
+
+.login-image {
+	height: 120px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1rem;
+	border-radius: 70%;
+}
+
+.login-title {
+	display:block;
+	font-size: 1.6rem;
+	font-weight:500;
+	margin-bottom: 1.6rem;
+	letter-spacing: 0.75px;
+	color: #4dabf7;
+	text-align: center;
+}
+
+.login h2 {
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+
+textarea {
+    min-height: 400px;
+}
+
+.message {
+	border:5rem;
+	background-color: #4dabf7;
+	font-weight: 600;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.register {
+	margin-top: 20rem;
+}
+
+.btnp {
+	margin: 1rem;
+	width: auto;
+	padding:0.2rem;
+	height: 3rem;
+	border-color: #228be6;
+	font-weight: 600;
+	cursor: pointer;
+	color: black;
+	border-radius: 10%;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+
+.btn {
+	font-size: 1.5rem;
+}
+
+/* LOGIN LINKS */
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.login a {
+    color:#212529;
+	font-size: 1.5rem;
+}
+
+/* REGISTER */
+
+.register{
+	margin-top: 20rem;
+	width:60%;
+	text-align: center;
+	margin-bottom: auto;
+	border-radius: 5%;
+	border-color: #73abd6;
+	border-style:solid ;
+	border-width:0.75px;
+	padding: 0.4rem 4rem;
+}
+
+.register-title {
+	display:block;
+	font-size: 3rem;
+	font-weight:500;
+	margin-bottom: 1.6rem;
+	letter-spacing: 0.75px;
+	color: #4dabf7;
+	text-align: center;
+}
+
+.register a {
+    color:#212529;
+	font-size: 1.5rem;
+}
+
+.register p {
+	color: #868e96;
+}
+
+.register-image {
+	height: 120px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	padding-top: 1rem;
+	border-radius: 50%;
+}
+
+.input-register{
+	display: inline-block;
+	padding: 0.4rem;
+	width: 70%;
+}
+
+.form-information {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+	padding-bottom: 1rem;
+}
